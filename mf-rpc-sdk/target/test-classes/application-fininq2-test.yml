@@ -1,0 +1,7 @@
+ol:
+  common:
+    project:
+      mfRpcSdk:
+        live-session: true
+        # Use generated trail file to check internal API
+        trail-path: /trails/Fininq2.trail
