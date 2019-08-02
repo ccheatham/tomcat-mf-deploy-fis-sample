@@ -1,5 +1,6 @@
 package com.mf_rpc_api.openlegacy;
 
+import org.openlegacy.oauth.OLOauthAutoConfiguration;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
@@ -19,6 +20,7 @@ import org.springframework.boot.web.support.SpringBootServletInitializer;
         DataSourceTransactionManagerAutoConfiguration.class,
         JdbcTemplateAutoConfiguration.class,
         DataSourceAutoConfiguration.class,
+        OLOauthAutoConfiguration.class,
         SecurityAutoConfiguration.class,
         TransactionAutoConfiguration.class})
 public class MfRpcApiApplication extends SpringBootServletInitializer {
